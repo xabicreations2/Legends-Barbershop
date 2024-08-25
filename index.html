@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <!--=============== REMIX ICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive landing page headphones</title>
+  </head>
+  <body>
+    <div style="background-color: aliceblue;">
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <img src="assets/img/logo.png" width="150px" height="150px" alt="" />
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Inicio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#servicios" class="nav__link">Servicios</a>
+            </li>
+            <li class="nav__item">
+              <a href="#galeria" class="nav__link">Galería</a>
+            </li>
+            <li class="nav__item">
+              <a href="#encuentranos" class="nav__link">Encuéntranos</a>
+            </li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line ri-lg"></i>
+        </div>
+      </nav>
+    </header>
+  </div>
+
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home section" id="home">
+        <div class="home__container container grid reverse">
+          <div>
+            <div class="carousel myCarousel margin-home">
+              <div class="carousel-wrapper">
+                <div class="carousel-item">
+                  <video playsinline autoplay muted loop>
+                    <source
+                      src="assets/videos/cortar-pelo-barber-shop-san-sebastian.MOV"
+                      type="video/mp4"
+                    />
+                    Tu navegador no soporta el elemento de video.
+                  </video>
+                </div>
+
+                <!-- Fin de bloques repetidos -->
+              </div>
+            </div>
+          </div>
+
+          <div class="home__data">
+            <div class="home__header">
+              <h3 class="home__subtitle">
+                <span class="text-gold">LEGENDS</span> BARBERSHOP
+              </h3>
+            </div>
+
+            <div class="home__footer">
+              <h2 class="home__title-description">BARBERIA PROFESIONAL</h2>
+              <h1
+                style="
+                  font-size: 16px;
+                  line-height: 20px;
+                  font-weight: 400;
+                  color: #a9a9a9;
+                "
+                class="home__description"
+              >
+                Barbería Profesional San Sebastián - Donostia Cerca de mi:
+                Cortes de Pelo, Afeitado a medida, Arreglo de barba y más.
+                Cortar pelo San Sebastian - Donostia
+              </h1>
+
+              <div class="button-box" style="justify-content: left !important">
+                <a href="tel:123456789" class="button button--flex">
+                  <span class="button--flex">
+                    <i class="ri-phone-fill ri-lg"></i>EASO
+                  </span>
+                </a>
+                <a href="tel:987654321" class="button button--flex">
+                  <span class="button--flex">
+                    <i class="ri-phone-fill ri-lg"></i>SAN MARTIN
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== SPONSOR ===============-->
+
+      <section id="servicios" class="sponsor section margin-top-sponsor">
+        <div class="titulo"><h2>SERVICIOS</h2></div>
+
+        <div class="container-card">
+          <div class="card">
+            <div class="box-img">
+              <img src="assets/img/servicio-1.jpg" alt="Icono corte de pelo" />
+            </div>
+            <div class="box-text">
+              <h3>CORTE DE PELO</h3>
+              <p>
+                Cortes de pelo diseñados para resaltar tu estilo y personalidad.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="box-img">
+              <img src="assets/img/servicio-2.jpg" alt="Icono corte de pelo" />
+            </div>
+            <div class="box-text">
+              <h3>AFEITADO</h3>
+              <p>
+                Disfruta de un afeitado apurado y relajante con nuestros
+                expertos barberos.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="box-img">
+              <img src="assets/img/servicio-3.jpg" alt="Icono corte de pelo" />
+            </div>
+            <div class="box-text">
+              <h3>ESTILISMO</h3>
+              <p>
+                Estamos diseñados para transformar tu apariencia y darte un look
+                único y personalizado.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="box-img">
+              <img src="assets/img/servicio-4.jpg" alt="Icono corte de pelo" />
+            </div>
+            <div class="box-text">
+              <h3>ARREGLO DE BARBA</h3>
+              <p>
+                Nuestros barberos expertos se encargarán de dar forma y estilo a
+                tu barba,con productos de calidad.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- <div class="service" id="service-main">
+        <div class="icon-bg">
+          <i class="ri-coupon-4-fill"></i>
+        </div>
+        <div class="service__content">
+          <h2>Nuevas tendencias</h2>
+          <p>Diversidad de cortes, sacando la mejor versión a tu cabello</p>
+        </div>
+      </div> -->
+
+      <section class="sponsor section flow-box">
+        <div class="titulo">
+          <h2>ELIGE TU <span class="text-gold flow">FLOW</span></h2>
+        </div>
+
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <video playsinline autoplay muted loop>
+                <source src="assets/videos/video-1.MOV" type="video/mp4" />
+                Tu navegador no soporta el elemento de video.
+              </video>
+            </div>
+            <!-- Repite este bloque para cada slide -->
+            <div class="swiper-slide">
+              <video playsinline autoplay muted loop>
+                <source src="assets/videos/video-2.MOV" type="video/mp4" />
+                Tu navegador no soporta el elemento de video.
+              </video>
+            </div>
+            <div class="swiper-slide">
+              <video playsinline autoplay muted loop>
+                <source src="assets/videos/video-3.MOV" type="video/mp4" />
+                Tu navegador no soporta el elemento de video.
+              </video>
+            </div>
+            <div class="swiper-slide">
+              <video playsinline autoplay muted loop>
+                <source src="assets/videos/video-3.MOV" type="video/mp4" />
+                Tu navegador no soporta el elemento de video.
+              </video>
+            </div>
+          </div>
+        </div>
+        <div class="button-box">
+          <a href="tel:123456789" class="button button--flex">
+            <span class="button--flex">
+              <i class="ri-phone-fill ri-lg"></i>EASO
+            </span>
+          </a>
+          <a href="tel:987654321" class="button button--flex">
+            <span class="button--flex">
+              <i class="ri-phone-fill ri-lg"></i>SAN MARTIN
+            </span>
+          </a>
+        </div>
+
+        <section id="galeria">
+          <div class="titulo-instagram">
+            <h2>SIGUENOS EN INSTAGRAM</h2>
+            <a
+              class="text-gold"
+              href="https://www.instagram.com/legendsbarbershop__/"
+              ><h2 class="text-gold">@legendsbarbershop__</h2></a
+            >
+          </div>
+
+          <div class="image-gallery">
+            <div class="image-column">
+              <a
+                href="https://www.instagram.com/legendsbarbershop__"
+                target="_blank"
+                ><img
+                  class="img-animation"
+                  src="assets/img/insta-1.jpg"
+                  style="width: 100%"
+              /></a>
+              <img
+                class="img-animation"
+                src="assets/img/insta-2.jpg"
+                style="width: 100%"
+              />
+            </div>
+            <div class="image-column">
+              <img
+                class="img-animation"
+                src="assets/img/insta-3.jpg"
+                style="width: 100%"
+              />
+              <img
+                class="img-animation"
+                src="assets/img/insta-4.jpg"
+                style="width: 100%"
+              />
+            </div>
+
+            <div class="image-column">
+              <img class="" src="assets/img/insta-5.jpg" style="width: 100%" />
+              <img class="" src="assets/img/insta-6.jpg" style="width: 100%" />
+            </div>
+            <div class="image-column">
+              <img class="" src="assets/img/insta-7.jpg" style="width: 100%" />
+              <img class="" src="assets/img/insta-8.jpg" style="width: 100%" />
+            </div>
+          </div>
+          <button class="show-more-button" onclick="showMore()">Ver más</button>
+        </section>
+      </section>
+      <script>
+        function showMore() {
+          const hiddenColumns = document.querySelectorAll(
+            ".image-column:nth-child(n+3)"
+          );
+          hiddenColumns.forEach((column) => column.classList.toggle("show"));
+
+          const button = document.querySelector(".show-more-button");
+          if (button.textContent === "Ver más") {
+            button.textContent = "Ver menos";
+          } else {
+            button.textContent = "Ver más";
+          }
+        }
+      </script>
+
+      <section id="encuentranos">
+        <div class="contact-section">
+          <div class="contact-info">
+            <div class="titulo-contact">
+              <h3 style="text-align: left !important">ENCUÉNTRANOS</h3>
+            </div>
+            <a href="https://maps.app.goo.gl/7igqnXQS6vrustTy6">
+              <p
+                style="
+                  display: flex;
+                  align-items: center;
+                  color: rgb(226, 226, 226);
+                "
+              >
+                <span
+                  class="material-symbols-outlined"
+                  style="margin-right: 8px"
+                >
+                  location_on </span
+                >Moraza Kalea, 9, Donostia, Gipuzkoa
+              </p></a
+            >
+            <a href="https://maps.app.goo.gl/95vYscQNxsc1TkVA7"
+              ><p
+                style="
+                  display: flex;
+                  align-items: center;
+                  color: rgb(226, 226, 226);
+                "
+              >
+                <span
+                  class="material-symbols-outlined"
+                  style="margin-right: 8px"
+                >
+                  location_on </span
+                >Calle de San Martín, 36, Donostia, Gipuzkoa
+              </p></a
+            >
+          </div>
+          <div class="contact-form">
+            <iframe
+              class="iframe-animation"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4753.742566973168!2d-1.9854912171117614!3d43.31677467117927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd51a51c945ebebb%3A0xdcc3f3d3d148e5b1!2sLegends%20BarberShop!5e1!3m2!1ses!2ses!4v1722971934648!5m2!1ses!2ses"
+              width="600"
+              height="200"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <iframe
+              class="iframe-animation"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4753.742566973168!2d-1.9854912171117614!3d43.31677467117927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd51a5dca16ef59d%3A0xa008c876158a3055!2sLegends%20BarberShop!5e1!3m2!1ses!2ses!4v1722972004472!5m2!1ses!2ses"
+              width="600"
+              height="200"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <div class="titulo"><h2>LLAMANOS</h2></div>
+
+      <div class="button-box" style="margin: auto; padding-top: 20px">
+        <a href="tel:123456789" class="button button--flex">
+          <span class="button--flex">
+            <i class="ri-phone-fill ri-lg"></i>EASO
+          </span>
+        </a>
+        <a href="tel:987654321" class="button button--flex">
+          <span class="button--flex">
+            <i class="ri-phone-fill ri-lg"></i>SAN MARTIN
+          </span>
+        </a>
+      </div>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer section">
+      <!-- <div class="footer__container container grid">
+        <a href="#" class="footer__logo">
+          <img src="assets/img/logo.png" alt="" />
+        </a>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Products</h3>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">Headphones</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Earphones</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Earbuds</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Accesories</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Support</h3>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">Product help</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Register</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Updates</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Provides</a>
+            </li>
+          </ul>
+        </div> -->
+
+        <div class="footer__content">
+          <div class="footer__social">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="ri-facebook-fill"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a
+              href="https://twitter.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="ri-twitter-line"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <p class="footer__copy">
+        <a
+          href="https://www.youtube.com/c/Bedimcode/"
+          target="_blank"
+          class="footer__copy-link"
+          >&#169; Legends Barbershop. Todos los derechos reservados.</a
+        >
+      </p>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-s-line scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
